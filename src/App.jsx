@@ -87,7 +87,7 @@ export default function ClassRegistration() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-gradient-to-r from-blue-50 to-indigo-100 rounded-lg shadow-md">
+    <div className="max-w-2xl mx-auto p-6 bg-gradient-to-r from-blue-500 to-indigo-700 rounded-lg shadow-md">
       <h2 className="text-2xl font-semibold text-indigo-700 mb-4">🎓 Class Registration</h2>
 
       {/* Display Wallet Address or Connect Button */}
@@ -128,7 +128,7 @@ export default function ClassRegistration() {
       <div className="flex gap-2">
         <button 
           onClick={handleRegister} 
-          className="bg-blue-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-700"
+          className="bg-green-900 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-700"
         >
           Register Student
         </button>
